@@ -162,6 +162,12 @@ hr{
   }
 
 
+  .infor-lista{
+    height: 700px;
+    flex-grow: 1;
+    font-size: 19px;
+  }
+
   /* -------- IMAGENS DO SISTEMA ------------------*/
 
   .img-logo{

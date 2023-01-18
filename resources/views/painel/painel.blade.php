@@ -47,8 +47,10 @@
     <div class="infor-dados">XXXXXXXXXXXXXXXXXX</div>
   </div> 
 </div>
-<div class="flex-item f-3">3</div>
-</div>
+<div class="flex-elementos e-1">
+    <div class="titulo"> LISTA DA COMPRA </div>
+    <div class="infor-lista">XXXXXXXXXXXXXXXXXX</div>
+  </div> </div>
 
 </body>
 </html>

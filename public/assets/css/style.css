@@ -93,15 +93,18 @@ hr{
   .flex-painel{
     display: flex;
     background-color: #4682B4;
+    border: 1px solid #000;
+   
   }
   
   .flex-painel-abertura-caixa{  
     display: flex;
-    margin: 50px;
+    margin: 40px;
     left: 250px;
     justify-content: space-between;
     align-items: center;
     background-color: #4682B4;
+    border: 1px solid #000;
   }
 
   .flex-caixa-aberto{
@@ -119,6 +122,8 @@ hr{
   .flex-container{
     display: flex;
     justify-content:space-around;
+    align-items:flex-start;
+
   }
   
   .flex-item {
@@ -128,12 +133,14 @@ hr{
     font-size: 30px;
     width: 100px;
     margin: 10px;
+    
   }
   .f-1{
     width: 360px;
     height: 320px;
     border: 0;
    justify-items: center;
+   border: 1px solid #000;
   }
 
   .f-2{
@@ -142,29 +149,58 @@ hr{
     border: 20px;
   }
   
+  .e-1{
+    margin: 10px;
+  }
+
   .flex-elementos{
     display: flex;
-    width: 490px;
+    width: 495px;
     flex-direction: column;
     background-color: #4682B4;
-    border-radius: 5px;
+    border-radius: 15px;
+    border: 2px solid #4682B4;
+  
+  }
+
+  .flex-elementos-list{
+    display: flex;
+    width: 490px;
+    height: 50px;
+    flex-direction: column;
+    background-color: #4682B4;
+    border-radius: 15px;
+
   }
   
   .titulo{
-    width: 494px;
+    width: 490px;
     background-color:#4682B4;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .titulo-lista{
+    width: 450px;
+    background-color:#4682B4;
+    font-size: 30px;
+    text-align: center;
   }
  
   .infor-dados{
-    height: 200px;
-    flex-grow: 1;
+    height: 120px;
+    width: 491px;
+    background-color: #fff;
     font-size: 19px;
+    border-radius: 0px 0px 15px 15px;
+  
   }
 
 
   .infor-lista{
-    height: 700px;
-    flex-grow: 1;
+    width: 500px;
+    height: 900px;    
+    background-color: #555;
     font-size: 19px;
   }
 
@@ -174,25 +210,15 @@ hr{
     background-color: #4682B4;
     padding: 25px; 
     width: 20%;
+    
   }
 
   .img-foto-prod{
     width: 360px; 
     height: 390px; 
-  }
-
-.div_log{    
-    width: 15vw;
-    height: 330px;
-    margin-left: 60px;
-    margin-top: -330px;
-    background-color: #f0f2fa;
-}
-
-.div_infos{
-    display: inline-block;    
     
-}
+    
+  }
 
 .img-cart-logo{
     margin: auto;
@@ -200,39 +226,4 @@ hr{
     height: 310px;
     margin-top: 10px;
     background-color: #f0f2fa;
-}
-
-.cod_barra{
-    background: white;
-    width: 200px;
-    height: 10%;
-    margin-left: 19%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.val_unit{
-    background: white;
-    width: 200px;
-    height: 10%;
-    margin-left: 19%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-.total_it{
-    background: white;
-    width: 200px;
-    height: 10%;
-    margin-left: 19%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.list_produtos{
-    background: white;
-    width: 1028px;
-    height: 339%;
-    margin-left: 107%;
-    margin-top: -22px;
-    border-radius: 10px;
 }

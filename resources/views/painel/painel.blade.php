@@ -49,7 +49,9 @@
 </div>
 <div class="flex-elementos-list e-1">
     <div class="titulo-lista"> LISTA DA COMPRA </div>
+    <div class="div-list">
     <div class="infor-lista">XXXXXXXXXXXXXXXXXX</div>
+    </div>
   </div> 
 </div>
 

@@ -23,88 +23,25 @@ body{
     
 }
 
-.container-painel{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-nav{
-    height: 100px;
-    background-color: #4682B4;
-    width: calc(100vw - 1px);
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-}
-
-.logo_1{
-    width: 18vw;
-    height: 7vh;
-    background-color: #4682B4;
-}
-
-.nome_func{
-    width: 100vw;
-    font-size: 52px;
-    padding-left: 20px;
-    margin-top: 15px;
-    font-weight: bold;
-    background-color: #4682B4;
-}
-hr{
-    width: 20px;
-    height: 2px;
-    margin-left: 20px;
-    margin-top: 15px;
-    display: block;
-    background-color: var(--text-dark);
-    border: 0;
-
-}
-
-.painel{
-    display: flex;
-}
-
-.caixa-aberto{
-    padding-left: 40%;
-    font-size: 40px;
-    font-weight: bold;
-    background-color: #fff;
-    display: flex;
-}
-
-.codigo-barras{
-    width: 500px;
-    margin: 0 15px;
-    border: 1px solid #fff;
-      
-}
-
-.panel-cod-barra {
-    margin-top: 10%;
-    padding-top: 100%;
-    color: --var(--text-dark);
-    font-size: 18px;
-  }
 /* ---------------  CONTEUDO DO FLEX -------------- */
 
   .flex-painel{
     display: flex;
     background-color: #4682B4;
     border: 1px solid #000;
+    flex-grow: 1;
    
   }
   
   .flex-painel-abertura-caixa{  
     display: flex;
-    margin: 40px;
+    margin: 30px;
     left: 250px;
     justify-content: space-between;
     align-items: center;
     background-color: #4682B4;
     border: 1px solid #000;
+    flex-grow: 1;
   }
 
   .flex-caixa-aberto{
@@ -112,45 +49,54 @@ hr{
     align-items: center;
     width: 50%;
     background-color: #4682B4;
+    flex-grow: 1;
    }
 
    .f2{
     color: #fff;
     font-size: 30px;
+    flex-grow: 1;
    }
 
   .flex-container{
+    width: 1500px;
     display: flex;
     justify-content:space-around;
     align-items:flex-start;
+    font-family:'Courier New', Courier, monospace;
+    flex-grow: 1;
 
   }
   
   .flex-item {
     background-color: #CCC;
     border: 3px solid #555;
-    color: #000;
-    font-size: 30px;
     width: 100px;
-    margin: 10px;
-    
+    margin: 25px;
+    margin-top: 3px;
+    flex-grow: 1;  
   }
   .f-1{
-    width: 360px;
+    width: 270px;
     height: 320px;
-    border: 0;
-   justify-items: center;
-   border: 1px solid #000;
+    justify-items: center;
+    border: 2px solid #4682B4;
+    flex-grow: 1;
   }
 
   .f-2{
-    width: 500px;
+    width: 427px;
     background-color: #fff;
     border: 20px;
+    flex-grow: 1;
   }
   
   .e-1{
     margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    flex-grow: 1;
+  
   }
 
   .flex-elementos{
@@ -160,31 +106,36 @@ hr{
     background-color: #4682B4;
     border-radius: 15px;
     border: 2px solid #4682B4;
+    flex-grow: 1;
   
   }
 
   .flex-elementos-list{
     display: flex;
-    width: 490px;
+    width: 410px;
     height: 50px;
     flex-direction: column;
     background-color: #4682B4;
     border-radius: 15px;
+    flex-grow: 1;
 
   }
   
   .titulo{
     width: 490px;
+    height: 40px;
     background-color:#4682B4;
     text-align: center;
     border-radius: 15px;
   }
 
   .titulo-lista{
-    width: 450px;
+    width:490px;
+    align-items: center;
     background-color:#4682B4;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    border-radius: 15px 15px 0px 0px;
   }
  
   .infor-dados{
@@ -196,12 +147,16 @@ hr{
   
   }
 
+  .div-list{
+    width: 501px;
+    border: 2px solid #4682B4;
+    border-radius: 0px 0px 0px 0px;
+  }
 
   .infor-lista{
-    width: 500px;
-    height: 900px;    
-    background-color: #555;
-    font-size: 19px;
+    height: 474px;
+    font-size: 18px;
+    border-radius: 15px 0px 15px 15px;
   }
 
   /* -------- IMAGENS DO SISTEMA ------------------*/
@@ -215,9 +170,7 @@ hr{
 
   .img-foto-prod{
     width: 360px; 
-    height: 390px; 
-    
-    
+    height: 400px;     
   }
 
 .img-cart-logo{

@@ -44,6 +44,12 @@
     <div class="titulo"> TOTAL DO ITEM </div>
     <div class="infor-dados">R$ 487,28</div>
   </div> 
+
+  <div class="flex-elementos e-1">
+    <div class="titulo"> VALOR RECEBIDO </div>
+    <div class="infor-dados">R$ 500,00</div>
+  </div> 
+
 </div>
 <div class="flex-elementos-list e-1">
     <div class="titulo-lista"> LISTA DA COMPRA </div>
@@ -84,29 +90,20 @@
           <td>38,00</td>
         </tr>
       </tbody>
-    </table></div>
+    </table>
+  </div>
     </div>
+
+    <div class="flex-rodape">
+      <div class="flex-item f-3">
+        <div class="flex-vl-total e-1">
+          <div class="titulo-codigo"> SUBTOTAL </div>
+          <div class="infor-valor-total">XXXXXXXXXXXXXXXXXX</div>
+        </div> 
+      </div>
+
   </div> 
 </div>
-
-
-<div class="flex-container">
-
-
-<div class="flex-item f-3">
-  <div class="flex-elementos-codigo e-1">
-    <div class="titulo-codigo"> CÓDIGO </div>
-    <div class="infor-dados-codigo" align="center">XXXXXXXXXXXXXXXXXX</div>
-  </div> 
-
-
-
-</div>
-
-
-
-
-
 
 
 </body>

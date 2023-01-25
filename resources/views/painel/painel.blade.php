@@ -89,5 +89,25 @@
   </div> 
 </div>
 
+
+<div class="flex-container">
+
+
+<div class="flex-item f-3">
+  <div class="flex-elementos-codigo e-1">
+    <div class="titulo-codigo"> CÓDIGO </div>
+    <div class="infor-dados-codigo" align="center">XXXXXXXXXXXXXXXXXX</div>
+  </div> 
+
+
+
+</div>
+
+
+
+
+
+
+
 </body>
 </html>

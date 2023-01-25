@@ -1,0 +1,237 @@
+:root{
+
+    --background-light : #f0f2fa;
+    --background-white : #0a090e;
+    --text-dark: #0a0040;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    color: var(--text-dark);
+    background-color: #fff;
+}
+
+
+body{
+    background-color:var(--background-white);
+    color: #FFF;
+    box-sizing: border-box;
+    
+}
+
+/* ---------------  CONTEUDO DO FLEX -------------- */
+
+  .flex-painel{
+    display: flex;
+    background-color: #4682B4;
+    border: 2px solid #555;
+    flex-grow: 1;
+   
+  }
+  
+  .flex-painel-abertura-caixa{  
+    display: flex;
+    margin: 30px;
+    left: 250px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4682B4;
+    border: 2px solid #555;
+    flex-grow: 1;
+  }
+
+  .flex-caixa-aberto{
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    background-color: #4682B4;
+    flex-grow: 1;
+   }
+
+   .f2{
+    color: #fff;
+    font-size: 30px;
+    flex-grow: 1;
+   }
+
+  .flex-container{
+    width: 1500px;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    font-family:'Courier New', Courier, monospace;
+    flex-grow: 1;
+
+  }
+  
+  .flex-item {
+    background-color: #CCC;
+    border: 3px solid #555;
+    width: 100px;
+    margin: 25px;
+    margin-top: 3px;
+    flex-grow: 1;  
+  }
+  .f-1{
+    width: 270px;
+    height: 320px;
+    justify-items: center;
+    border: 2px solid #4682B4;
+    flex-grow: 1;
+  }
+
+  .f-2{
+    width: 427px;
+    background-color: #fff;
+    border: 20px;
+    flex-grow: 1;
+  }
+  
+  .f-3{
+    width: 427px;
+    background-color: #fff;
+    border: 20px;
+    flex-grow: 1;
+  }
+
+  .e-1{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    flex-grow: 1;  
+  }
+
+  .flex-elementos{
+    display: flex;
+    width: 495px;
+    flex-direction: column;
+    background-color: #4682B4;
+    border-radius: 15px;
+    border: 2px solid #4682B4;
+    flex-grow: 1;
+  
+  }
+
+  .flex-elementos-codigo{
+    display: flex;
+    width: 424px;
+    flex-direction: column;
+    background-color: #4682B4;
+    border-radius: 15px;
+    border: 2px solid #4682B4;
+    flex-grow: 1;
+  
+  }
+
+  .flex-elementos-list{
+    display: flex;
+    width: 410px;
+    height: 50px;
+    flex-direction: column;
+    background-color: #4682B4;
+    border-radius: 15px;
+    flex-grow: 1;
+
+  }
+  
+  .titulo{
+    width: 490px;
+    height: 40px;
+    background-color:#4682B4;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .titulo-codigo{
+    width: 420px;
+    height: 40px;
+    background-color:#4682B4;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .titulo-lista{
+    width:490px;
+    align-items: center;
+    background-color:#4682B4;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .num-cod-barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 491px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 0px 0px 15px 15px;
+
+  }
+ 
+  .infor-dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 491px;
+    font-size: 60px;
+    background-color: #fff;
+    border-radius: 0px 0px 15px 15px;
+ 
+  }
+  .infor-dados-codigo{
+    height: 120px;
+    width: 420px;
+    background-color: #fff;
+    font-size: 19px;
+    border-radius: 0px 0px 15px 15px;
+  
+  }
+
+
+
+  .div-list{
+    width: 501px;
+    border: 2px solid #4682B4;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 14px;
+  }
+
+  .infor-lista{
+    height: 474px;
+<<<<<<< HEAD
+=======
+    
+    font-size: 18px;
+>>>>>>> 99c51776258b6236317a05f9fed9482d1ae39a1c
+    border-radius: 15px 0px 15px 15px;
+  }
+
+  /* -------- IMAGENS DO SISTEMA ------------------*/
+
+  .img-logo{
+    background-color: #4682B4;
+    padding: 25px; 
+    width: 20%;
+    
+  }
+
+  .img-foto-prod{
+    width: 360px; 
+    height: 400px;     
+  }
+
+.img-cart-logo{
+    margin: auto;
+    width: 15vw;
+    height: 310px;
+    margin-top: 10px;
+    background-color: #f0f2fa;
+}

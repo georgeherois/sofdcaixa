@@ -32,25 +32,59 @@
 <div class="flex-item f-2">
   <div class="flex-elementos e-1">
     <div class="titulo"> CÓDIGO DE BARRA </div>
-    <div class="infor-dados">XXXXXXXXXXXXXXXXXX</div>
+    <div class="num-cod-barra">2547310200 5244121 0000 887008 254000000</div>
   </div> 
 
   <div class="flex-elementos e-1">
     <div class="titulo">VALOR UNITÁRIO </div>
-    <div class="infor-dados">
-     XXXXXXXXXXXXXXXXXX
-    </div>
+    <div class="infor-dados">R$ 71,35</div>
   </div> 
   
   <div class="flex-elementos e-1">
     <div class="titulo"> TOTAL DO ITEM </div>
-    <div class="infor-dados">XXXXXXXXXXXXXXXXXX</div>
+    <div class="infor-dados">R$ 487,28</div>
   </div> 
 </div>
 <div class="flex-elementos-list e-1">
     <div class="titulo-lista"> LISTA DA COMPRA </div>
     <div class="div-list">
-    <div class="infor-lista">XXXXXXXXXXXXXXXXXX</div>
+    <div class="infor-lista">
+      <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Nº Item</th>
+          <th scope="col">Discrição</th>
+          <th scope="col">Qtd</th>
+          <th scope="col">Vlr. Unit.</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Café Marata</td>
+          <td>001</td>
+          <td>7,53</td>
+          <td>7,53</td>
+          <td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Açucar Demerara União</td>
+          <td>003</td>
+          <td>8,22</td>
+          <td>24,66</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Carne Alcatra</td>
+          <td>001</td>
+          <td>38,00</td>
+          <td>38,00</td>
+        </tr>
+      </tbody>
+    </table></div>
     </div>
   </div> 
 </div>

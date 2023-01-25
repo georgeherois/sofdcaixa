@@ -28,7 +28,7 @@ body{
   .flex-painel{
     display: flex;
     background-color: #4682B4;
-    border: 1px solid #000;
+    border: 2px solid #555;
     flex-grow: 1;
    
   }
@@ -40,7 +40,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #4682B4;
-    border: 1px solid #000;
+    border: 2px solid #555;
     flex-grow: 1;
   }
 
@@ -95,8 +95,7 @@ body{
     margin: 10px;
     font-size: 25px;
     font-weight: bold;
-    flex-grow: 1;
-  
+    flex-grow: 1;  
   }
 
   .flex-elementos{
@@ -137,25 +136,40 @@ body{
     text-align: center;
     border-radius: 15px 15px 0px 0px;
   }
- 
-  .infor-dados{
+
+  .num-cod-barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 120px;
     width: 491px;
+    font-size: 20px;
     background-color: #fff;
-    font-size: 19px;
     border-radius: 0px 0px 15px 15px;
-  
+
+  }
+ 
+  .infor-dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 491px;
+    font-size: 60px;
+    background-color: #fff;
+    border-radius: 0px 0px 15px 15px;
+ 
   }
 
   .div-list{
     width: 501px;
     border: 2px solid #4682B4;
     border-radius: 0px 0px 0px 0px;
+    font-size: 14px;
   }
 
   .infor-lista{
     height: 474px;
-    font-size: 18px;
     border-radius: 15px 0px 15px 15px;
   }
 

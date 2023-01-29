@@ -28,6 +28,19 @@
 <div class="flex-container">
 <div class="flex-item f-1"> 
   <img src="{{ asset('/assets/imge/cart-logo-2.jpeg') }}" class="img-thumbnail img-foto-prod">
+
+  <div class="flex-manual">
+    <div class="manual-titulo">
+      <div class="manual">
+        <ul class="list-style">
+        <li>F2 - Código Interno</li> 
+        <li>F3 - Excluir Item</li>
+        <li>F4 - Inserir Quanrtidade</li>
+        <li>F5 - Nova Venda</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="flex-item f-2">
   <div class="flex-elementos e-1">
@@ -49,6 +62,12 @@
     <div class="titulo"> VALOR RECEBIDO </div>
     <div class="infor-dados">R$ 500,00</div>
   </div> 
+
+  <div class="flex-elementos e-1">
+    <div class="titulo"> SUBTOTAL </div>
+    <div class="infor-dados">$ 487, 28</div>
+  </div> 
+
 
 </div>
 <div class="flex-elementos-list e-1">
@@ -97,8 +116,8 @@
     <div class="flex-rodape">
       <div class="flex-item f-3">
         <div class="flex-vl-total e-1">
-          <div class="titulo-codigo"> SUBTOTAL </div>
-          <div class="infor-valor-total">XXXXXXXXXXXXXXXXXX</div>
+          <div class="titulo-codigo"> TROCO </div>
+          <div class="infor-valor-total">R$ 12, 72</div>
         </div> 
       </div>
 

@@ -35,8 +35,10 @@
         <ul class="list-style">
         <li>F2 - Código Interno</li> 
         <li>F3 - Excluir Item</li>
-        <li>F4 - Inserir Quanrtidade</li>
+        <li>F4 - Inserir Quantidade</li>
         <li>F5 - Nova Venda</li>
+        <li>F6 - Consultar Produto</li>
+        <li>F7 - Imprimir Nota</li>
         </ul>
       </div>
     </div>
@@ -59,12 +61,12 @@
   </div> 
 
   <div class="flex-elementos e-1">
-    <div class="titulo"> VALOR RECEBIDO </div>
+    <div class="titulo"> TOTAL DA COMPRA </div>
     <div class="infor-dados">R$ 500,00</div>
   </div> 
 
   <div class="flex-elementos e-1">
-    <div class="titulo"> SUBTOTAL </div>
+    <div class="titulo"> VALOR RECEBIDO </div>
     <div class="infor-dados">$ 487, 28</div>
   </div> 
 
